@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-color);
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-color);
+}
+#quote-box {
+  width: 450px;
+  background-color: white;
+  border-radius: 3px;
+  padding: 40px 50px;
+}
+#text-box {
+  line-height: 1.4em;
+  font-weight: 500;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+#author {
+  width: 450px;
+  text-align: right;
+  padding-top: 20px;
+}
+footer {
+  margin-top: 10px;
+  color: white;
+  font-size: 0.8em;
+}
+#buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+  color: white;
+}
+#new-quote {
+  margin-left: auto;
+  border: none;
+  background-color: var(--main-color);
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#buttons div {
+  background-color: var(--main-color);
+}
+.icon {
+  padding: 10px 0px;
+  width: 40px;
+  height: auto;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 3px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Machine</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div id="quote-box">
+        <div id="text-box">
+          <i class="fas fa-quote-left"></i>
+          <span id="text"> </span>
+        </div>
+        <div id="author"></div>
+        <div id="buttons">
+          <a target="_blank" title="Tweet this quote!" id="tweet-quote">
+            <div class="icon hover">
+              <i class="fab fa-twitter"></i></div
+          ></a>
+
+          <a target="_blank" title="Post it on tumblr!" id="tumblr-quote">
+            <div class="icon hover">
+              <i class="fab fa-tumblr"></i>
+            </div>
+          </a>
+
+          <button id="new-quote" class="hover">New Quote</button>
+        </div>
+      </div>
+      <footer>By Moustafa Essam</footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
